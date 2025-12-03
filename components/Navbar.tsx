@@ -16,7 +16,8 @@ export default function Navbar() {
                 <div className="flex justify-between items-center h-16">
                     <div className="flex-shrink-0 flex items-center gap-2">
                         <Link href="/" className="flex items-center gap-2">
-                            <img src="/logo.png" alt="오늘까지 로고" className="h-8 w-auto" />
+                            <img src="/logo_light.svg" alt="오늘까지 로고" className="h-8 w-auto dark:hidden" />
+                            <img src="/logo_dark.svg" alt="오늘까지 로고" className="h-8 w-auto hidden dark:block" />
                         </Link>
                     </div>
 
