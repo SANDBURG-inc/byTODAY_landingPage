@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import Modal from './Modal';
 import ContactForm from './ContactForm';
@@ -25,12 +26,12 @@ export default function CTA() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-                            <button
-                                onClick={() => setIsModalOpen(true)}
+                            <Link
+                                href="/dashboard"
                                 className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-bold hover:bg-blue-50 transition-colors shadow-lg flex items-center justify-center"
                             >
                                 무료로 시작하기 <ArrowRight className="ml-2 w-5 h-5" />
-                            </button>
+                            </Link>
                         </div>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-blue-100">

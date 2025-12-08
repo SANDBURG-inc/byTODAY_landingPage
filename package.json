@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@stackframe/stack": "^2.8.54",
     "@vercel/analytics": "^1.6.1",
     "lucide-react": "^0.555.0",
     "next": "16.0.5",

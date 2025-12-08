@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { StackProvider, StackTheme } from "@stackframe/stack";
+import { stackClientApp } from "../stack/client";
 import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
@@ -18,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className}><StackProvider app={stackClientApp}><StackTheme>
         {children}
         <Analytics />
         {/* ChannelTalk */}
@@ -35,7 +37,7 @@ export default function RootLayout({
             `,
           }}
         />
-      </body>
+      </StackTheme></StackProvider></body>
     </html>
   );
 }

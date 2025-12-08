@@ -1,0 +1,11 @@
+import { SignIn } from "@stackframe/stack";
+import Link from "next/link";
+
+export default function SignInPage() {
+    return <div className="flex min-h-screen items-center justify-center">
+        <div className="max-w-md w-full space-y-8">
+            <SignIn />
+            <Link href="/"> Go Back Home</Link>
+        </div>
+    </div>;
+}
