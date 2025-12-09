@@ -40,10 +40,11 @@ export default function Features() {
     return (
         <section id="features" className="py-24 bg-gray-50 dark:bg-gray-900/50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                        문서 제출에 필요한<br />
-                        모든 기능을 한 곳에
+                <div className="text-center max-w-4xl mx-auto mb-16">
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
+                        비즈니스 커뮤니케이션을 쉽게, '오늘까지'
+                        <br />
+                        서류 요청, 리마인드, 서류 관리까지 하나로 해결하세요.
                     </h2>
                     <p className="text-lg text-gray-700 dark:text-gray-400">
                         파일 수집부터 관리까지, 완벽한 문서 제출 솔루션

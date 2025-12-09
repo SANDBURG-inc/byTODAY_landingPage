@@ -17,10 +17,11 @@ export default function CTA() {
 
                     <div className="relative z-10 max-w-3xl mx-auto">
                         <h2 className="text-3xl md:text-5xl font-bold mb-6">
-                            지금 시작하기
+                            '오늘까지'로 감정노동 삭제하기
                         </h2>
                         <p className="text-xl text-white mb-10">
-                            복잡한 서류 제출을 가장 간단하게 바꿔보세요.<br />
+                            피곤한 서류 요청을 스마트하게 바꿔보세요.
+                            <br />
                             5분이면 첫 프로젝트를 만들고 링크를 공유할 수 있습니다.
                         </p>
 
@@ -36,15 +37,7 @@ export default function CTA() {
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-blue-100">
                             <div className="flex items-center gap-2">
                                 <CheckCircle2 className="w-5 h-5" />
-                                <span>유연한 요금제</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <CheckCircle2 className="w-5 h-5" />
-                                <span>14일 무료 체험</span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <CheckCircle2 className="w-5 h-5" />
-                                <span>언제든 해지 가능</span>
+                                <span>카드등록없이 14일 무료 체험</span>
                             </div>
                         </div>
                     </div>

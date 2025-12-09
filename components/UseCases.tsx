@@ -3,23 +3,23 @@ import { Building2, GraduationCap, Briefcase, FileText } from "lucide-react";
 const cases = [
     {
         icon: Building2,
-        title: "공공기관 입찰 서류",
-        description: "복잡한 입찰 서류를 누락 없이 한 번에 수집",
+        title: "스타트업 지원기관",
+        description: "지원자/참여팀에게 제출요청이 많고, 마감·누락 관리가 핵심이라 정중한 리마인드와 제출 현황 공유로 운영 스트레스를 줄여요.",
     },
     {
         icon: Briefcase,
-        title: "기업 채용 지원서",
-        description: "지원자별 포트폴리오와 이력서 체계적 관리",
+        title: "교육기관",
+        description: "과제/서류/동의서 제출을 “반복적으로” 받아야 해서, 자동 리마인드 + 미제출자 분리 관리로 학습 운영이 매끄러워져요.",
     },
     {
         icon: GraduationCap,
-        title: "교육기관 과제 제출",
-        description: "학생 과제물 기한 내 자동 수합 및 관리",
+        title: "에이전시/대행사",
+        description: "클라이언트 피드백, 원고/소스 전달, 수정본 승인처럼 “확정이 늦어져서 일정이 밀리는” 일이 많아서 버전별 제출 링크 + 승인 마감 리마인드로 일정 지연을 확 줄여요.",
     },
     {
         icon: FileText,
-        title: "보험 서류 접수",
-        description: "고객 청구 서류를 안전하게 접수 및 보관",
+        title: "기업 관리자",
+        description: "증빙/동의/정산 자료를 여러 사람·거래처로부터 받아야 하니까, 요청 메시지 템플릿 + 마감 추적 + 자동 독촉으로 ‘서류 받는 일’을 시스템화해요.",
     },
 ];
 
@@ -27,10 +27,9 @@ export default function UseCases() {
     return (
         <section className="py-24 bg-gray-50 dark:bg-gray-900/50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center max-w-3xl mx-auto mb-16">
+                <div className="text-center max-w-5xl mx-auto mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                        다양한 활용 사례
-                    </h2>
+                        '오늘까지'를 통해 다양한 상황에서 똑똑하게 커뮤니케이션하는 법.                    </h2>
                     <p className="text-lg text-gray-700 dark:text-gray-400">
                         입찰부터 채용까지, 어디서나 활용 가능한 문서 제출 플랫폼
                     </p>

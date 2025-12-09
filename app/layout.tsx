@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "오늘까지 - 간편 파일 제출 플랫폼",
+  title: "오늘까지 - 제출 서류 관리, 리마인드 자동화 서비스",
   description: "The all-in-one file submission platform for everyone.",
 };
 
