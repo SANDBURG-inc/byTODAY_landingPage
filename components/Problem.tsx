@@ -34,8 +34,7 @@ export default function Problem() {
                 <div className="text-center max-w-4xl mx-auto mb-16">
                     <h2 className="text-xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 leading-tight">
                         재촉하고, 부탁드리고.. 감정 노동에 시달리고 계신가요?
-                        <br />
-                        오늘까지 서비스가 없는 지금의 프로젝트 관리는 어떠신가요?                    </h2>
+                    </h2>
                     <p className="text-sm md:text-lg text-gray-700 dark:text-gray-400">
                         비효율적인 문서 제출 프로세스로 인한 시간 낭비와 스트레스
                     </p>

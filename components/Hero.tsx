@@ -13,9 +13,9 @@ export default function Hero() {
     return (
         <section className="pt-32 pb-16 md:pt-48 md:pb-32 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-                <div className="text-center max-w-4xl mx-auto">
+                <div className="text-center max-w-5xl mx-auto">
                     <h1 className="text-2xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6 leading-tight">
-                        오늘도 대표님 죄송하지만.. 이라는 말로<br />
+                        "오늘도 대표님 죄송하지만.." 이라는 말로<br />
                         서류 제출을 요청하고 계신가요?<br />
                         <span className="text-primary">'오늘까지'가 대신해드릴게요.</span>
                     </h1>
